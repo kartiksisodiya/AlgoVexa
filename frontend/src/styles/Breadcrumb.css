@@ -1,0 +1,27 @@
+.breadcrumb {
+  background: #f8f9fa;
+  padding: 15px 0;
+}
+
+.breadcrumb-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: #666;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-links li {
+  position: relative;
+}
+
+.breadcrumb-links a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.breadcrumb-links a:hover {
+  color: #e74c3c;
+}

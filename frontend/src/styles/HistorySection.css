@@ -1,0 +1,40 @@
+.about-history-section {
+  background: #2d3436;
+  color: white;
+  padding: 80px 0;
+}
+
+.about-history-section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #636e72;
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-year {
+  font-weight: bold;
+  font-size: 18px;
+  color: #74b9ff;
+}
+
+.timeline-content p {
+  line-height: 1.7;
+  color: #ddd;
+}
